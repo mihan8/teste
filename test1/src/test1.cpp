@@ -7,9 +7,21 @@
 //============================================================================
 
 #include <iostream>
+#include <fstream>
+
 using namespace std;
 
 int main() {
-	cout << "!!!Hello World!!!!" << endl; // prints !!!Hello World!!!
+	ifstream f("test1.in");
+	ofstream g("test1.out");
+
+	string s;
+	getline(f, s);
+
+	f >> s;
+
+	int i = 0;
+	i++;
+	cout << s << i << endl; // prints !!!Hello World!!!
 	return 0;
 }
