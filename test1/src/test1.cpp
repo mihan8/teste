@@ -22,6 +22,6 @@ int main() {
 
 	int i = 0;
 	i++;
-	cout << s << i << endl; // prints !!!Hello World!!!
+	cout << s << i << endl; // prints the content of the input file
 	return 0;
 }
